@@ -102,8 +102,9 @@ def changing_alan
           :languages => ["C"]
         }
      }
-    programmer_hash[:known_for] => "GUI"
-    programmer_hash[:known_for]
+     alans_new_info = "GUI"
+    programmer_hash[:alan_kay][:known_for] = alans_new_info
+    programmer_hash
      
      
      
@@ -125,5 +126,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-programmer_hash[:dennis_ritchie][:languages] = ["C","Assembly"]
+programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+programmer_hash
 end
